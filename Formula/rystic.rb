@@ -35,7 +35,16 @@ class Rystic < Formula
   end
 
   def caveats
-    "Upgrade with `brew upgrade rystic`, not `rystic self-update`."
+    <<~EOS
+      Upgrade with `brew upgrade rystic`, not `rystic self-update`.
+
+      If macOS says Apple could not verify rystic, clear the download
+      quarantine after each install or upgrade, before running rystic:
+        chmod u+w #{opt_bin}/rystic
+        xattr -d com.apple.quarantine #{opt_bin}/rystic
+      If macOS already moved rystic to the Trash, run `brew reinstall rystic`
+      first.
+    EOS
   end
 
   test do
