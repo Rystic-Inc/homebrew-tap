@@ -10,23 +10,23 @@ class Rystic < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Rystic-Inc/rystic/releases/download/v0.0.79/rystic_0.0.79_darwin_arm64.tar.gz"
-      sha256 "3cc4ce9210e838944318a976f696daed3b6afa8c80ce8674f0b537f1dd0eda52"
+      url "https://github.com/Rystic-Inc/rystic/releases/download/v0.0.83/rystic_0.0.83_darwin_arm64.tar.gz"
+      sha256 "d92a1627075b43cd8b6fdc4e3a2cd96da91d549fcc7147fe9cf308ef84660d0b"
     end
     on_intel do
-      url "https://github.com/Rystic-Inc/rystic/releases/download/v0.0.79/rystic_0.0.79_darwin_amd64.tar.gz"
-      sha256 "3c3f651814268ec7d9a24b8f7d4433738707fe2bf23ffe40732ca632d7a61c54"
+      url "https://github.com/Rystic-Inc/rystic/releases/download/v0.0.83/rystic_0.0.83_darwin_amd64.tar.gz"
+      sha256 "81c84ff74eef0e3b4bf317461d4fb698c219a517f587aa8ca7f2c93247733c46"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Rystic-Inc/rystic/releases/download/v0.0.79/rystic_0.0.79_linux_arm64.tar.gz"
-      sha256 "3c45c234b846461237afd743ef9bed96368422d02b6fd14773ac446048b85d09"
+      url "https://github.com/Rystic-Inc/rystic/releases/download/v0.0.83/rystic_0.0.83_linux_arm64.tar.gz"
+      sha256 "6385bc908b66dfe6cb5295316181fa613cd679754b546b8fb780aed07c51d604"
     end
     on_intel do
-      url "https://github.com/Rystic-Inc/rystic/releases/download/v0.0.79/rystic_0.0.79_linux_amd64.tar.gz"
-      sha256 "cb6a4065dc78a5c3b6f770ca26b625abf2001967dc33c39b4dd47f4e0ea0725a"
+      url "https://github.com/Rystic-Inc/rystic/releases/download/v0.0.83/rystic_0.0.83_linux_amd64.tar.gz"
+      sha256 "5b75b5e17ece19637a1638a7b65423f6a597617d315bef2eb0d5921181c429ac"
     end
   end
 
